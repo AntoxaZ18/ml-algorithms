@@ -4,3 +4,6 @@
 *.zip
 !.gitignore
 /linear.py
+/module_2/parallel/recursive_challenge
+/module_2/parallel/path
+*.txt
