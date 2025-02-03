@@ -26,7 +26,7 @@ class BooksCollector:
         return [book for book, genre_ in self.books_genre.items() if genre_ == genre]
     
     def get_books_for_children(self):
-        return [book for book, genre_ in self.books_genre if genre_ not in self.genre_age_ratings]
+        return [book for book, genre_ in self.books_genre.items() if genre_ not in self.genre_age_ratings]
     
 
     def add_book_to_favorites(self, book):
