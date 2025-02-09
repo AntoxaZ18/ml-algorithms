@@ -223,7 +223,7 @@ CREATE  INDEX idx_customer_last_name ON customer(last_name)
 CREATE TABLE film (
   film_id int NOT NULL,
   title VARCHAR(255) NOT NULL,
-  description bytea DEFAULT NULL,
+  description VARCHAR(255) DEFAULT NULL,
   release_year VARCHAR(4) DEFAULT NULL,
   language_id SMALLINT NOT NULL,
   original_language_id SMALLINT DEFAULT NULL,
