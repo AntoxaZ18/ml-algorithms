@@ -9,6 +9,7 @@
 /polar_bear
 /brown_bear
 *.txt
+*.pkl
 *.jpg
 *.jar
 *.rar
